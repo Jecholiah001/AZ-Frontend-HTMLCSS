@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2(Tables)</title>
+
+    <style>
+        caption {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: blue;
+        }
+
+        table {
+            border-collapse: collapse;
+            
+        }
+    
+
+        th,td {
+            padding:20px ;
+        }
+        
+        th {
+            background-color: aquamarine;
+        }
+
+        td {
+            background-color: aqua;
+        }
+
+        tr:hover{
+            background-color: lightgrey;
+        }
+
+    </style> 
+
+</head>
+<body>
+    <table border="1">
+    <caption>A list of Graduates</caption>
+
+    <thead>
+        <tr>
+           <th scope="col">Names</th>
+           <th scope="col">Cities</th> 
+           <th scope="col">Ages</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>Adwoa</td>
+        <td>Accra</td>
+        <td>18 years</td>
+    </tr>
+    <tr>
+        <td>Kofi</td>
+        <td>Kumasi</td>
+        <td>26 years</td>
+    </tr>
+    <tr>
+        <td>Yaa</td>
+        <td>Ho</td>
+        <td>35 years</td>
+    </tr>
+</tbody>
+
+    
+<tfoot>
+    <tr>
+        <td colspan="3"> They are eligible for graduation</td>
+     </tr>
+</tfoot>
+</table>
+</body>
+</html>
