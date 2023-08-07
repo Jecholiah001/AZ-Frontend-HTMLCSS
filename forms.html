@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <h1>DATA FORM</h1>
+    <h1>Personal Information</h1>
+    <form  method="post" autocomplete="off">
+       <label for="fullname"><b>Full Name:</b></label>
+       <input type="text" id="fullname"  name="fullname" placeholder="Enter your fullname"required><br><br>
+       <label for="email address"><b>Email address:</b></label>
+       <input type="email" id="email address" name="email address" placeholder="Enter your email address" required><br><br>
+       <label for="age"><b>Age:</b></label>
+       <input type="text" id="age" name="age" required><br><br>
+
+       <label for="phonenumber"><b>Telephone:</b></label>
+       <input type="tel" id="phonenumber" name="phonenumber" required><br><br>
+       <label for="birthdate"><b>Date of birth:</b></label>
+       <input type="date" id="birthdate" name="birthdate" required><br><br>
+       <label for="countries"><b>Country of residence:</b></label>
+       <select id="countries" name="countries" required>
+       <option value="ghana">Ghana</option>
+       <option value="nigeria">Nigeria</option>
+       <option value="togo">Togo</option>
+       <option value="benin">Benin</option>
+       </select><br><br>
+    
+        <label for=""><b>Gender:</b></label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" 
+        value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" 
+        value="female"><br><br>
+
+        <label for="hobbies"><b>Hobbies:</b></label>
+        <label for="read">Reading</label>    
+        <input type="checkbox" id="read" name="read">
+        <label for="dance">Dancing</label>
+        <input type="checkbox" id="dance" name="dance">
+        <label for="music">Listening to music</label>
+        <input type="checkbox" id="music" name="music">
+        <label for="crochet">Crocheting</label>
+        <input type="checkbox" id="crochet" name="crochet">
+        <label for="code">Coding</label>
+        <input type="checkbox" id="code" name="code"><br><br>
+
+        <label for="comment"><b>Comments:</b></label><br>
+        <textarea id="comment" name="comment" rows="10" cols="60"></textarea><br><br>
+            
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
